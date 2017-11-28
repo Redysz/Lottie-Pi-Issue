@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C08C1931FCD7E980069F062 /* ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C08C1921FCD7E980069F062 /* ball.jpg */; };
+		5C1764791FCD9D33004F28A6 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C1764781FCD9D33004F28A6 /* ball.png */; };
 		5CC0361F1FCD70B900C8B519 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0361E1FCD70B900C8B519 /* AppDelegate.m */; };
 		5CC036221FCD70B900C8B519 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC036211FCD70B900C8B519 /* ViewController.m */; };
 		5CC036251FCD70B900C8B519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC036231FCD70B900C8B519 /* Main.storyboard */; };
@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		12A053CA1C486A0DC49939A4 /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
-		5C08C1921FCD7E980069F062 /* ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ball.jpg; path = ../../../../../Downloads/ball.jpg; sourceTree = "<group>"; };
+		5C1764781FCD9D33004F28A6 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = ../../../Downloads/ball.png; sourceTree = "<group>"; };
 		5CC0361A1FCD70B900C8B519 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC0361D1FCD70B900C8B519 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5CC0361E1FCD70B900C8B519 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -121,8 +121,8 @@
 				5CC0370E1FCD72E600C8B519 /* some_loader.json */,
 				5CC036281FCD70B900C8B519 /* LaunchScreen.storyboard */,
 				5CC0362B1FCD70B900C8B519 /* Info.plist */,
+				5C1764781FCD9D33004F28A6 /* ball.png */,
 				5CC0362C1FCD70B900C8B519 /* main.m */,
-				5C08C1921FCD7E980069F062 /* ball.jpg */,
 			);
 			path = SampleApp;
 			sourceTree = "<group>";
@@ -272,9 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CC0362A1FCD70B900C8B519 /* LaunchScreen.storyboard in Resources */,
+				5C1764791FCD9D33004F28A6 /* ball.png in Resources */,
 				5CC036271FCD70B900C8B519 /* Assets.xcassets in Resources */,
 				5CC0370F1FCD72E700C8B519 /* some_loader.json in Resources */,
-				5C08C1931FCD7E980069F062 /* ball.jpg in Resources */,
 				5CC036251FCD70B900C8B519 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

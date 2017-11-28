@@ -45,19 +45,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self createAnimationView];
-    imageView1 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ball.jpg"]];
+    imageView1 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ball.png"]];
     [imageView1 setFrame:CGRectMake(self.view.frame.size.width/2, self.view.frame.size.height/2, 24, 24)];
     [self.view addSubview:imageView1];
     
-    imageView2 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ball.jpg"]];
+    imageView2 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ball.png"]];
     [imageView2 setFrame:CGRectMake(self.view.frame.size.width/2, self.view.frame.size.height/2, 24, 24)];
     [self.view addSubview:imageView2];
     
-    imageView3 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ball.jpg"]];
+    imageView3 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ball.png"]];
     [imageView3 setFrame:CGRectMake(self.view.frame.size.width/2, self.view.frame.size.height/2, 24, 24)];
     [self.view addSubview:imageView3];
     
-    imageView4 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ball.jpg"]];
+    imageView4 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ball.png"]];
     [imageView4 setFrame:CGRectMake(self.view.frame.size.width/2, self.view.frame.size.height/2, 24, 24)];
     [self.view addSubview:imageView4];
     animation = NO;
